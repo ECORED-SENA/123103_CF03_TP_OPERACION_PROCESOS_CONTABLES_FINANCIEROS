@@ -11,26 +11,12 @@
     width: 95px
     top: 60%
     right: 20%
-  &-3
-    animation: floatRotate 5s ease-in-out infinite alternate
-    position: absolute
-    width: 95px
-    top: 70%
-    left: 10%
 
 @keyframes float
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-
-@keyframes floatRotate
-  0% 
-    transform: translateX(0px) rotate(0deg)
-  50% 
-    transform: translateX(-35px) rotate(30deg)
-  100% 
-    transform: translateY(-35px) rotate(0deg)
   
 @keyframes floatZoom
   0% 
@@ -65,20 +51,10 @@
 
 .banner-principal__row
   padding: 0rem 0rem 0rem 1rem
-
-.banner-principal__descripcion
-  padding: 0rem 4rem 0rem 0rem
-  @media screen and (max-width: 768px)
-    padding: 0rem !important
-  @media screen and (min-width: 1400px)
-    padding: 0rem !important
   
 .banner-principal__info
-  padding: 0rem 0rem 0rem 5rem !important
   @media screen and (max-width: 576px)
-    padding: 9rem 2.4rem 9rem 1.5rem !important
-  @media screen and (min-width: 1400px)
-    padding: 0rem !important
+    padding: 10rem 1.5rem 10rem 1.5rem !important
 
 figcaption
   font-weight: normal
@@ -88,7 +64,7 @@ figcaption
 /* ===================================
 .titles___box_tercer_nivel
   background-color: $color-acento-contenido
-  border-radius: 5px
+  border-radius: 20px
   display: inline-flex
   align-items: center
   padding: 1rem
@@ -103,7 +79,7 @@ figcaption
     padding: 1.5rem
     margin-left: 0.4rem
   h3
-    margin-left: 1rem
+    margin-left: 0rem
     padding-left: 0rem
     align-items: center
     white-space: normal
@@ -111,34 +87,418 @@ figcaption
     margin-bottom: 0px
   img
     position: relative
-    left: 2px
-    bottom: 10px
+    left: -9px
+    bottom: 5px
     @media screen and (max-width: 1200px)
-      bottom: 7px
+      bottom: 0px
     @media screen and (max-width: 768px)
       bottom: 0px
+.fit___title_tercer_nivel
+  @media screen and (max-width: 1200px)
+    padding: 1.8rem 1.5rem
 
 /* ===================================
               FONDOS
 /* ===================================
+.color___box_1
+  background-image: url("../assets/curso/temas/img4.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+.color___box_2
+  background-image: url("../assets/curso/temas/img85.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+.fondo___slider
+  background-image: url("../assets/curso/temas/img9.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+  padding: 3rem 0rem
+
+.fondo___carrusel
+  background-image: url("../assets/curso/temas/img45.png")
+  background-repeat: no-repeat
+  background-size: 1150px
+  margin-inline: -3.2rem !important
+  @media screen and (min-width: 1400px)
+    background-size: 1330px
+
+
+
 
 /* ===================================
               INTRO
 /* ===================================
+.box___style_1
+  background-color: $color-adicional-2
+  padding: 1rem 1.5rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+  @media screen and (min-width: 1400px)
+    padding: 2rem 1.5rem
+
+
 
 /* ===================================
-              TEMA 
+              TEMA 1
+/* ===================================
+.estilo___ul
+  li
+    margin-left: -1rem
+.fa-check-circle
+  color: $color-acento-contenido
+
+.fit___box_1
+  padding: 1.5rem
+
+.box___style_2
+  background-color: $color-adicional-3
+  padding: 1rem
+  border-radius: 14px
+
+/* ============ SUBTEMA 1 ============
+.video
+  iframe
+    border-top-left-radius: 14px !important
+    border-top-right-radius: 14px !important
+.fit___figcaption-video
+  border-bottom-right-radius: 14px !important
+  border-bottom-left-radius: 14px !important
+
+.box___style_3
+  background-color: $color-adicional-4
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  h4
+    padding: 1rem 2rem 1rem 2rem
+  p
+    padding: 0rem 2rem 3rem 2rem
+
+.box___style_4
+  background-color: $color-adicional-2
+  padding-right: 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    p
+      padding: 1.5rem
+    img
+      margin: 0rem !important
+      padding: 0rem !important
+
+.slyder-a__item
+  padding: 4rem 3rem 1rem 4rem !important
+.slyder-a__tipo-b
+  padding: 0rem 2rem 2rem 2rem !important
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
+.slyder-a__bullets__item 
+  background-color: #FFDCA9 !important
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: #FF9B08 !important
+.slyder-a__bullets__item
+  @media screen and (max-width: 768px)
+    width: 10px !important
+    height: 10px !important
+    margin: 0.2rem
+.ajuste-slider
+  border-radius: 20px
+  background-color: white
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4)
+
+.box___style_5
+  background-color: $color-adicional-5
+  border-radius: 11px
+  padding: 1.5rem
+  p
+    color: white 
+  h4
+    color: white
+.texto-negro
+  span
+    color: $color-sistema-texto !important
+  i
+    color: $color-sistema-texto !important
+
+/* ============ SUBTEMA 2 ============
+.box___style_6
+  background-color: white
+  padding: 2rem 3rem
+  border-radius: 14px
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4)
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.box___style_7
+  background-color: $color-adicional-6
+  border-radius: 14px
+  padding: 2rem 3rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.box___style_8
+  width: 90%
+  background-color: white
+  align-content: center
+  padding: 1rem 1.5rem
+  border-radius: 23px
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4)
+  img
+    position: relative
+    left: -2.7rem
+  p
+    margin-left: -2.7rem 
+  @media screen and (max-width: 576px)
+    img
+      left: 0rem !important
+    p
+      text-align: center
+      margin-left: 0rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1rem
+    img
+      left: -2rem
+    p
+      margin-left: -2rem 
+
+.tarjeta.color-acento-contenido
+  background-color: $color-adicional-5
+  @media screen and (max-width:  1200px)
+    border-radius: 20px !important
+
+.tarjeta.color-primario
+  @media screen and (max-width: 1200px)
+    border-radius: 20px !important
+
+.fit___box_1-1
+  padding: 1rem 1.5rem
+  @media screen and (min-width: 1400px)
+    padding: 1.8rem 1.5rem
+
+.tarjeta.color-acento-botones
+  background-color: white
+  padding: 4rem 2.5rem !important
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  h4
+    color: $color-sistema-texto
+  p
+    color: $color-sistema-texto
+  i
+    color: $color-sistema-texto
+  b
+    color: $color-sistema-texto
+.horizontal-scroll__wrapper
+  padding: 1rem 0.5rem
+.fa-chevron-right
+  color: $color-acento-botones
+.fa-chevron-left
+  color: $color-acento-botones
+.estilo-text
+  text-align: center
+  padding: 0.3rem
+.slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $color-sistema-texto
+  border-radius: 50px
+  padding: 0.8rem 1rem
+.slyder-f__btn i:hover
+  background-color: $color-acento-botones
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3)
+  border: 1px solid white
+  transition: opacity 0.3s ease-in-outbox-shadow 0.3s ease-in-out
+
+/* ============ SUBTEMA 3 ============
+.tabs-c__tab--active
+  font-weight: bold
+.tabs-c__content-item
+  background-color: $color-adicional-7
+  padding: 2rem
+.tabs-c
+  border-bottom: none !important
+
+.box___style_9
+  background-color: $color-adicional-2
+  padding: 1rem 1.5rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.box___style_10
+  background-color: $color-adicional-8
+  padding: 1rem 2rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.box___style_11
+  background-color: $color-adicional-6
+  padding: 0.5rem 2rem
+  align-content: center
+  display: inline-block
+  @media screen and (max-width: 1200px)
+    padding: 0.5rem 1rem
+
+.fit___box_11
+  padding: 0.5rem 5rem
+  @media screen and (max-width: 1200px)
+    padding: 0.5rem 1rem
+  
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.acordeonA
+  position: relative
+  background-color: $color-adicional-5
+  width: 100%
+  h3
+    color: white !important
+  p
+    padding-left: 4.3rem
+  @media screen and (max-width: 1200px)
+    width: 100%
+    img
+      padding-left: 3.5rem
+.acordion__activo
+  background-color: $color-adicional-2
+  h3
+    color: $color-sistema-texto !important
+.ajuste-cajaAcordion
+  padding: 0rem 1rem 0rem 0rem
+
+
+
+/* ===================================
+              TEMA 2
 /* ===================================
 /* ============ SUBTEMA 1 ============
-/* ============ SUBTEMA 2 ============
+.box___style_12
+  background-color: $color-adicional-2
+  padding-left: 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    p
+      padding: 1.5rem
+    img
+      margin: 0rem !important
+      padding: 0rem !important 
+
+.tabla-a
+  width: 100% !important
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  table
+    border-collapse: collapse
+    width: 100%
+    min-width: 500px
+    table-layout: auto
+  thead
+    border-top: 6px solid #AF6A1A !important
+    background-color: $color-acento-contenido !important
+  tbody
+    border: none !important
+    background-color: white !important
+  td
+    border: none
+    padding: 1rem
+  th
+    padding: 1.5rem
+    @media screen and (max-width: 1200px)
+      padding: 0.5rem
+.ajuste-border-tabla
+  border-right: 1px solid #d5d5d5 !important
+.ajuste-color-tabla
+  background-color: #F6F6F6 !important
+.texto-right
+  text-align: right !important
+.texto-left
+  text-align: left !important
+
 /* ============ SUBTEMA 3 ============
-/* ============ SUBTEMA 4 ============
-/* ============ SUBTEMA 5 ============
-/* ============ SUBTEMA 6 ============
-/* ============ SUBTEMA 7 ============
-/* ============ SUBTEMA 8 ============
+.box___style_13
+  background-color: $color-adicional-2
+  padding: 1rem 1.5rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.fit___width_final
+  margin-bottom: -3rem
+
+.fit___pasosA-left
+  text-align: left
 
 
 
 
+/* ===================================
+              TEMA 3
+/* ===================================
+/* ============ SUBTEMA 1 ============
+.box___style_14
+  border-radius: 14px
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3)
+  h4
+    background-color: $color-primario
+    border-top-left-radius: 14px
+    border-top-right-radius: 14px
+    padding: 1rem
+    height: 70px !important
+    align-content: center
+  p
+    background-color: white
+    border-bottom-left-radius: 14px
+    border-bottom-right-radius: 14px
+    padding: 2rem 1rem
+    height: 150px
+    @media screen and (max-width: 1200px)
+      padding: 2rem 1.5rem
+      height: 110px
+    @media screen and (min-width: 1400px)
+      padding: 2rem 1.5rem
+      height: 140px
 
+/* ============ SUBTEMA 3 ============
+.titles___box_cuarto_nivel
+  background-color: $color-primario
+  border-radius: 5px
+  display: inline-flex
+  padding: 0.3rem 2rem
+
+
+
+/* ===================================
+              TEMA 4
+/* ===================================
+.box___style_15
+  background-color: $color-adicional-5
+  padding: 3rem 1.5rem
+  border-radius: 20px
+  h4
+    color: white
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  margin-bottom: 2rem !important
+  font-style: normal !important
+.tarjeta-audio
+  background-color: white
+  border-radius: 10px
+  border: 3px solid $color-secundario !important
+  padding: 1rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__input input[type=range]
+  background: rgb(255, 233, 181)
+  background-image: linear-gradient(#FF9B08, #FF9B08)
+.audio__btn
+  background-color: $color-acento-contenido !important
+
+/* ============ SUBTEMA 1 ============
+.fit___box_10
+  @media screen and (min-width: 1400px)
+    padding: 2.4rem 1.5rem
