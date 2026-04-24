@@ -167,7 +167,7 @@
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
             img(src='@/assets/curso/temas/img141.png', alt='').m-auto
-    p.mb-5 Un ejemplo común se presenta al inicio de turno, cuando el supervisor revisa con el equipo las órdenes del día, confirma en el sistema qué materiales están liberados y mantiene visible en un tablero la secuencia de trabajo. Si durante la jornada una orden cambia de prioridad, el sistema registra la actualización, el tablero se modifica y el supervisor lo confirma verbalmente, fortaleciendo la comunicación y reduciendo el riesgo de errores (Gómez, 2021). Para sintetizar se presenta los principales medios de comunicación utilizados en la operación, destacando su aporte al control del proceso y sus posibles limitaciones en la práctica.
+    p.mb-5 Un ejemplo común se presenta al inicio de turno, cuando el supervisor revisa con el equipo las órdenes del día, confirma en el sistema qué materiales están liberados y mantiene visible en un tablero la secuencia de trabajo. Si durante la jornada una orden cambia de prioridad, el sistema registra la actualización, el tablero se modifica y el supervisor lo confirma verbalmente, fortaleciendo la comunicación y reduciendo el riesgo de errores (Gómez, 2021). Para sintetizar, se presentan los principales medios de comunicación utilizados en la operación, destacando su aporte al control del proceso y sus posibles limitaciones en la práctica.
     .row.align-items-center.mb-5
       .col-xl-auto(data-aos="fade-right")
         figure.d-none.d-xl-block

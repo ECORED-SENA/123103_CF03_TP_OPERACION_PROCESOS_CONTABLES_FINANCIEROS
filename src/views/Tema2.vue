@@ -405,7 +405,7 @@
     .box___style_13.mb-5(data-aos="flip-up")
       .row.align-items-center
         .col-xl.col-md-10.order-2.order-lg-1
-          p.mb-0 Un cronograma de producción suele incluir actividades u órdenes, fecha de inicio, fecha de término, duración, responsable, recurso asignado, dependencias e hitos principales. Estos elementos permiten relacionar el qué, el cuándo y el con quién de la operación, y en herramientas como el diagrama de Gantt se representan mediante barras horizontales que indican la duración y la posición temporal de cada tarea (Martins, 2026).
+          p.mb-0 Un cronograma de producción suele incluir actividades u órdenes, fecha de inicio, fecha de término, duración, responsable, recurso asignado, dependencias e hitos principales. Estos elementos permiten relacionar el qué, el cuándo y el con quién de la operación, y en herramientas como el diagrama de #[i Gantt] se representan mediante barras horizontales que indican la duración y la posición temporal de cada tarea (Martins, 2026).
         .col-xl-auto.col-md-2.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/img16.svg', alt='' style="width: 85px").m-auto
@@ -471,15 +471,15 @@
             figure
               img(src="@/assets/curso/temas/img3.svg" style="max-width: 60px").m-auto
           .col
-            h3 Diagrama de Gantt básico
+            h3 Diagrama de #[i Gantt] básico
     .box___style_12.mb-5(data-aos="zoom-in")
       .row.align-items-center
         .col-xl.order-2.order-lg-1
-          p.mb-0 En la programación de la producción, el #[b diagrama de Gantt] constituye una herramienta fundamental para organizar y comunicar la ejecución de las actividades a lo largo del tiempo. Este diagrama permite representar tareas, duración, hitos y dependencias dentro de una línea temporal, facilitando la comprensión de cómo se distribuyen las actividades y cómo se articulan entre sí. Por esta razón, resulta especialmente útil para comunicar el programa de trabajo a los responsables operativos y a las áreas de apoyo (Martins, 2026).
+          p.mb-0 En la programación de la producción, el #[b diagrama de #[i Gantt]] constituye una herramienta fundamental para organizar y comunicar la ejecución de las actividades a lo largo del tiempo. Este diagrama permite representar tareas, duración, hitos y dependencias dentro de una línea temporal, facilitando la comprensión de cómo se distribuyen las actividades y cómo se articulan entre sí. Por esta razón, resulta especialmente útil para comunicar el programa de trabajo a los responsables operativos y a las áreas de apoyo (Martins, 2026).
         .col-xl-auto.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/img83.png', alt='').m-auto
-    p.mb-5 En entornos productivos, el Gantt puede emplearse para programar órdenes, operaciones o etapas del proceso. Aunque no sustituye herramientas más detalladas, contribuye a estructurar el plan general, identificar traslapes, detectar retrasos y reconocer dependencias mal definidas. Además, su actualización permite contrastar lo programado con lo ejecutado, fortaleciendo el seguimiento del avance del proceso. Para comprender su aplicación operativa, se presentan las principales relaciones utilizadas en su gestión:
+    p.mb-5 En entornos productivos, el #[i Gantt] puede emplearse para programar órdenes, operaciones o etapas del proceso. Aunque no sustituye herramientas más detalladas, contribuye a estructurar el plan general, identificar traslapes, detectar retrasos y reconocer dependencias mal definidas. Además, su actualización permite contrastar lo programado con lo ejecutado, fortaleciendo el seguimiento del avance del proceso. Para comprender su aplicación operativa, se presentan las principales relaciones utilizadas en su gestión:
     .row.justify-content-center.mb-5
       .col-xl-10
         .box___style_10(data-aos="flip-up")
@@ -516,12 +516,12 @@
           p.mb-0 Si una actividad inicia el día 3 y tiene duración de 4 días, su fecha de terminación prevista será el día 7, si se trabaja con conteo continuo del periodo. Si al revisar el cronograma se observa que solo se completó el 50 % del trabajo previsto para esa actividad, el responsable deberá ajustar recursos, tiempos o secuencia para evitar que el retraso afecte las siguientes tareas.
     .color___box_1
       .px-5
-        p.mb-5 La siguiente figura presenta un ejemplo de cronograma organizado mediante un diagrama de Gantt, en el que las actividades se distribuyen a lo largo del tiempo según su inicio, duración y coincidencia con otras tareas. Este tipo de representación facilita la comprensión de la secuencia de trabajo, la programación temporal de las actividades y el seguimiento del avance dentro del proceso productivo.
+        p.mb-5 La siguiente figura presenta un ejemplo de cronograma organizado mediante un diagrama de #[i Gantt], en el que las actividades se distribuyen a lo largo del tiempo según su inicio, duración y coincidencia con otras tareas. Este tipo de representación facilita la comprensión de la secuencia de trabajo, la programación temporal de las actividades y el seguimiento del avance dentro del proceso productivo.
         .row.justify-content-center.mb-5
           .col-xl-7
             .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
               h5 Figura 1.
-              span Ejemplo de cronograma de producción mediante diagrama de Gantt
+              span Ejemplo de cronograma de producción mediante diagrama de #[i Gantt]
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/img164.png', alt='Diagrama de Gantt con cronograma anual de febrero a diciembre que incluye fases de proyecto como investigación, clientes potenciales, lluvia de ideas, bocetos, conceptualización, desarrollo, prototipado, testeo, replanteamiento, planes técnicos, fabricación y embalaje, representadas con barras de colores a lo largo de los meses. ').m-auto
         .titles___box_tercer_nivel.mb-5(data-aos="fade-right")

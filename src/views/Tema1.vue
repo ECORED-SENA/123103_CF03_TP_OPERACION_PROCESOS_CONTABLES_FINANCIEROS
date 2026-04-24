@@ -116,7 +116,7 @@
                     span.fa-li
                       i.fas.fa-check-circle
                     | Tiempo útil de operación. 
-            p.mb-4.mb-lg-0 Sin embargo, la disponibilidad de recursos no debe entenderse como simple existencia física. Un equipo puede estar instalado, pero no necesariamente disponible por mantenimiento, preparación, cambios de referencia o restricción técnica. Del mismo modo, puede existir personal asignado, pero con limitaciones de jornada, experiencia o desempeño. Por eso, al analizar la capacidad se debe revisar la disponibilidad real de los recursos y su posibilidad efectiva de responder a la carga de trabajo (Chapman, 2006).
+            p.mb-4.mb-lg-0 Sin embargo, la disponibilidad de recursos no debe entenderse como simple existencia física. Un equipo puede estar instalado, pero no necesariamente disponible por mantenimiento, preparación, cambios de referencia o restricción técnica. Del mismo modo, puede existir personal asignado, pero con limitaciones de jornada, experiencia o desempeño. Por eso, al analizar la capacidad, se debe revisar la disponibilidad real de los recursos y su posibilidad efectiva de responder a la carga de trabajo (Chapman, 2006).
           .col-xl-auto.col-md-9(data-aos="fade-left")
             figure
                 img(src='@/assets/curso/temas/img5.png', alt='').m-auto
@@ -269,7 +269,7 @@
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
             img(src='@/assets/curso/temas/img18.png', alt='').m-auto
-    p.mb-5 Los pronósticos de producción corresponden a estimaciones sobre la demanda futura y sirven como apoyo para definir volúmenes, tiempos, recursos y prioridades de operación. Su importancia radica en que ayudan a reducir la incertidumbre propia de cualquier proceso productivo, aunque no eliminan por completo el riesgo de error. Para construir un pronóstico se analizan los siguientes patrones:
+    p.mb-5 Los pronósticos de producción corresponden a estimaciones sobre la demanda futura y sirven como apoyo para definir volúmenes, tiempos, recursos y prioridades de operación. Su importancia radica en que ayudan a reducir la incertidumbre propia de cualquier proceso productivo, aunque no eliminan por completo el riesgo de error. Para construir un pronóstico, se analizan los siguientes patrones:
     .row.justify-content-center.mb-5
       .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
         .box___style_6.h-100
@@ -453,7 +453,7 @@
                   figure
                     img(src='@/assets/curso/temas/img28.svg', alt='' style="width: 50px").m-auto
                 .col-xl.col-md-10
-                  p.mb-0 Si la demanda se mantiene relativamente estable. 
+                  p.mb-0 Sí la demanda se mantiene relativamente estable. 
           .col-xl-4.col-md-9.mb-4.mb-lg-0
             .box___style_8.h-100(data-aos="flip-up")
               .row.align-items-center
@@ -461,7 +461,7 @@
                   figure
                     img(src='@/assets/curso/temas/img28.svg', alt='' style="width: 50px").m-auto
                 .col-xl.col-md-10
-                  p.mb-0 Si presenta crecimiento o disminución sostenida. 
+                  p.mb-0 Sí presenta crecimiento o disminución sostenida. 
           .col-xl-4.col-md-9.mb-4.mb-lg-0
             .box___style_8.h-100(data-aos="flip-up")
               .row.align-items-center
@@ -483,7 +483,7 @@
               img(src='@/assets/curso/intro/img3.svg', alt='').m-auto
           .col-xl
             p.mb-0 Comprender estos componentes es importante porque no toda variación de la demanda debe interpretarse del mismo modo. Un aumento sostenido no se analiza igual que un pico estacional, y una caída temporal no necesariamente indica una tendencia permanente.
-    p.mb-5 Por eso, el estudio de históricos exige revisar la secuencia de los datos y buscar patrones que ayuden a distinguir lo estructural de lo circunstancial. Esta lectura permite construir pronósticos más consistentes y tomar decisiones de planeación con mayor criterio, por ejemplo al anticipar periodos de alta demanda, ajustar inventarios o reforzar recursos cuando el comportamiento histórico así lo sugiere (Hanke, 2010). Antes de presentar los componentes, se sintetizan a continuación: 
+    p.mb-5 Por eso, el estudio de históricos exige revisar la secuencia de los datos y buscar patrones que ayuden a distinguir lo estructural de lo circunstancial. Esta lectura permite construir pronósticos más consistentes y tomar decisiones de planeación con mayor criterio, por ejemplo, al anticipar periodos de alta demanda, ajustar inventarios o reforzar recursos cuando el comportamiento histórico así lo sugiere (Hanke, 2010). Antes de presentar los componentes, se sintetizan a continuación: 
     .fondo___slider.mb-5
       .px-5
         .ajuste-slider(data-aos="zoom-in")
