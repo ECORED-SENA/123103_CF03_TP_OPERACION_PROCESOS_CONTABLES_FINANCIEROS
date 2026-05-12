@@ -62,8 +62,8 @@
       h2 1.1 Capacidad productiva y recursos disponibles 
     p.mb-5 A continuación, se presenta un video sobre la capacidad productiva y los recursos disponibles, abordado desde una perspectiva técnica y académica para comprender su importancia en la planeación de la producción.
     figure(data-aos="zoom-in").mb-5
-      .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/cqzCL6WesW4" title="Capacidad productiva y recursos disponibles en la planeación de la producción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption.fit___figcaption-video(data-aos="zoom-in") #[b Video]. Capacidad productiva y recursos disponibles en la planeación de la producción.
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
