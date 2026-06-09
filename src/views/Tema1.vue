@@ -225,7 +225,7 @@
           h4 Cálculo básico de la capacidad
           p.mb-0 Se invita a leer el documento Cálculo básico de la capacidad, donde se aborda la forma de estimar la capacidad productiva a partir del tiempo disponible y el tiempo requerido por unidad, así como su aplicación en la planeación operativa.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_Calculo basico_capacidad_instruccional.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_Calculo basico_capacidad_instruccional.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     <!------------------------------------------ SUBTEMA 2 ------------------------------------------>
@@ -469,7 +469,7 @@
                   figure
                     img(src='@/assets/curso/temas/img28.svg', alt='' style="width: 50px").m-auto
                 .col-xl.col-md-10
-                  p.mb-0 Si cambia según épocas específicas del año, del mes o de la semana. 
+                  p.mb-0 Sí cambia según épocas específicas del año, del mes o de la semana. 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
         figure

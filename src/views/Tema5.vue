@@ -285,7 +285,7 @@
           h4 Ejemplo integrador: control y actualización de la ejecución productiva
           p.mb-0 Se invita a leer el documento, donde se aborda el control y la actualización de la ejecución productiva a partir del seguimiento diario de las órdenes de producción y el registro de avances, tiempos e incidencias.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_Ejemplo_Integrador_instruccional.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_Ejemplo_Integrador_instruccional.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 </template>

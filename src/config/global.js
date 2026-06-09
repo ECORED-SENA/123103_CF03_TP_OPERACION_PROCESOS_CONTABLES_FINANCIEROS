@@ -168,7 +168,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/123103_CF3_DU.pdf',
+        download: 'downloads/123103_CF03_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -201,7 +201,7 @@ export default {
     {
       termino: 'Estado de la orden',
       significado:
-        'situación en la que se encuentra una orden durante su ciclo de ejecución, por ejemplo liberada, en proceso, detenida o cerrada.',
+        'situación en la que se encuentra una orden durante su ciclo de ejecución, por ejemplo, liberada, en proceso, detenida o cerrada.',
     },
     {
       termino: 'Incidencia',
@@ -357,7 +357,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional 06. Responsable del Ecosistema Virtual de Recursos Educativos Digitales ',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

@@ -321,7 +321,7 @@
               h4 Seguimiento de incidencias y acciones correctivas
               p.mb-0 Se invita a leer el documento, donde se aborda la importancia de registrar, comunicar y dar seguimiento a las incidencias dentro de un proceso productivo, así como la aplicación de acciones correctivas para evitar su repetición.
             .col-xl-2
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_Seguimiento_incidencias_acciones_correctivas_Instruccional.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_Seguimiento_incidencias_acciones_correctivas_Instruccional.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
 </template>
