@@ -8,7 +8,7 @@
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre programación y gestión operativa de la producción con etapas de planeación, programación, ejecución, control y seguimiento, e información, que incluye actividades como análisis de demanda, capacidad productiva, secuenciación, órdenes de trabajo, asignación de recursos, comparación de resultados, identificación de desviaciones, toma de decisiones y registro de datos. ")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/Anexos/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
